@@ -1,0 +1,46 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "DrawOnTabLabels": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "TabFrameColor": "ff0000ff",
+  "FrameThickness": {
+    "Value": 1
+  },
+  "FilterTest": {
+    "Value": ""
+  },
+  "CustomConfigDir": {
+    "Value": ""
+  },
+  "NPCInvRules": [
+    {
+      "Name": "Early leveling gear.ifl",
+      "Location": "Early leveling gear.ifl",
+      "Enabled": false,
+      "Color": "ff0000ff"
+    },
+    {
+      "Name": "Standard yoinks.ifl",
+      "Location": "Standard yoinks.ifl",
+      "Enabled": false,
+      "Color": "ff0000ff"
+    }
+  ]
+}

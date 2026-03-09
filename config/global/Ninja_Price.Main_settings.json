@@ -1,0 +1,422 @@
+{
+  "游戏内为繁体": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "游戏内为简体": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "DataSourceSettings": {
+    "LastUpdateTime": "2025-07-10T17:33:21.7154746+08:00",
+    "ItemUpdatePeriodMs": {
+      "Value": 250
+    },
+    "League": {
+      "Value": "Mercenaries"
+    },
+    "SyncCurrentLeague": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "AutoReload": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ReloadPeriod": {
+      "Value": 15
+    },
+    "CheckMapVariant": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "UseChaosEquivalentDataForCurrency": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    }
+  },
+  "DebugSettings": {
+    "EnableDebugLogging": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "InspectHoverHotkey": {
+      "Value": 0
+    }
+  },
+  "StashValueSettings": {
+    "Show": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "PositionX": {
+      "Value": 240
+    },
+    "PositionY": {
+      "Value": 720
+    },
+    "TopValuedItemCount": {
+      "Value": 5
+    },
+    "EnableBackground": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    }
+  },
+  "InventoryValueSettings": {
+    "Show": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "PositionX": {
+      "Value": 1307
+    },
+    "PositionY": {
+      "Value": 470
+    }
+  },
+  "GroundItemSettings": {
+    "PriceHeistRewards": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "PriceItemsOnGround": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "OnlyPriceUniquesOnGround": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "GroundPriceTextScale": {
+      "Value": 1.0
+    },
+    "GroundPriceBackgroundColor": "000000ff"
+  },
+  "UniqueIdentificationSettings": {
+    "IgnoreGameUniqueArtMapping": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowRealUniqueNameOnGround": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "OnlyShowRealUniqueNameForValuableUniques": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowWarningTextForUnknownUniques": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "UniqueLabelSize": {
+      "Value": 0.8
+    },
+    "UniqueItemNameTextColor": "000000ff",
+    "UniqueItemNameBackgroundColor": "af6025ff",
+    "ValuableUniqueItemNameTextColor": "af6025ff",
+    "ValuableUniqueItemNameBackgroundColor": "ffffffff"
+  },
+  "TradeWindowSettings": {
+    "Show": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "OffsetX": {
+      "Value": 0
+    },
+    "OffsetY": {
+      "Value": 0
+    }
+  },
+  "HoveredItemSettings": {
+    "Show": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    }
+  },
+  "PriceOverlaySettings": {
+    "Show": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "DoNotDrawWhileAnItemIsHovered2": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "BoxHeight": {
+      "Value": 15
+    }
+  },
+  "LeagueSpecificSettings": {
+    "ShowMercenaryInventoryPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowRitualWindowPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowVillageRewardWindowPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowPurchaseWindowPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowSanctumRewardPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowVillageUniqueDisenchantValueWindow": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowExpeditionVendorOverlay": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowUltimatumOverlay": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "ShowArtifactChaosPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    }
+  },
+  "VisualPriceSettings": {
+    "SignificantDigits": {
+      "Value": 2
+    },
+    "FontColor": "d8d8d8ff",
+    "BackgroundColor": "000000ff",
+    "ValuableColorThreshold": {
+      "Value": 50
+    },
+    "ValuableColor": "ee82eeff",
+    "MaximalValueForFractionalDisplay": {
+      "Value": 0.031
+    }
+  },
+  "SoundNotificationSettings": {
+    "Enabled": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "Volume": {
+      "Value": 1.0
+    },
+    "ValueThreshold": {
+      "Value": 50
+    },
+    "PlayCustomSoundsIfBelowThreshold": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    }
+  },
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  }
+}

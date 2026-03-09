@@ -1,0 +1,65 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "DisplaySettings": {
+    "FrameThickness": {
+      "Value": 2
+    },
+    "BisColor": "ee82eeff",
+    "BrickColor": "ff0000ff",
+    "PickColor": "90ee90ff",
+    "NuisanceColor": "ffff00ff"
+  },
+  "DebugSettings": {
+    "DebugRawText": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    }
+  },
+  "MustPickMods": {
+    "Mods": {
+      "Content": [
+        {
+          "MatchingMod": {
+            "Value": "[怪物] #% chance to create Consecrated Ground on Death, lasting 6 seconds"
+          },
+          "Sound": {
+            "Value": ""
+          }
+        },
+        {
+          "MatchingMod": {
+            "Value": "[怪物] #% additional Physical Damage Reduction"
+          },
+          "Sound": {
+            "Value": ""
+          }
+        }
+      ]
+    }
+  },
+  "BrickMods": {
+    "Mods": {
+      "Content": []
+    }
+  },
+  "OtherMods": {
+    "Mods": {
+      "Content": []
+    }
+  }
+}
