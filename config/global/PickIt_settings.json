@@ -1,0 +1,343 @@
+{
+  "PickitRules": [
+    {
+      "Enabled": false,
+      "Name": "圣甲虫.ifl",
+      "Location": "圣甲虫.ifl"
+    },
+    {
+      "Enabled": true,
+      "Name": "地图.ifl",
+      "Location": "地图.ifl"
+    },
+    {
+      "Enabled": true,
+      "Name": "任务物品.ifl",
+      "Location": "任务物品.ifl"
+    },
+    {
+      "Enabled": true,
+      "Name": "通货-全部.ifl",
+      "Location": "通货-全部.ifl"
+    }
+  ],
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "InventoryRender": {
+    "ShowInventoryView": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "IgnoreFullscreenPanels": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "IgnoreLargePanels": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "IgnoreChatPanel": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "IgnoreLeftPanel": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "IgnoreRightPanel": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "Position": {
+      "Value": {
+        "X": 0.0,
+        "Y": 30.0
+      }
+    },
+    "BackdropPadding": {
+      "Value": 1
+    },
+    "CellSize": {
+      "Value": 20
+    },
+    "CellSpacing": {
+      "Value": 1
+    },
+    "ItemOutlineWidth": {
+      "Value": 1
+    },
+    "BackgroundColor": "00000032",
+    "ItemOutlineColor": "ffffffff",
+    "OccupiedSlotColor": "e73838a0",
+    "UnoccupiedSlotColor": "82fa8251"
+  },
+  "ProfilerHotkey": {
+    "Value": 0
+  },
+  "PickUpKey": {
+    "Value": 70
+  },
+  "PickUpWhenInventoryIsFull": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "PickupRange": {
+    "Value": 600
+  },
+  "IgnoreMoving": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "ItemDistanceToIgnoreMoving": {
+    "Value": 20
+  },
+  "PauseBetweenClicks": {
+    "Value": 100
+  },
+  "LazyLooting": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "NoLazyLootingWhileEnemyClose": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "LazyLootingPauseKey": {
+    "Value": 32
+  },
+  "PickUpEverything": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "ChestSettings": {
+    "ClickChests": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "TargetNearbyChestsFirst": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None"
+        }
+      }
+    },
+    "TargetNearbyChestsFirstRadius": {
+      "Value": 12
+    },
+    "ChestList": {
+      "Content": [
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/QuestChests/"
+          }
+        },
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/LeaguesExpedition/"
+          }
+        },
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/LegionChests/"
+          }
+        },
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/Blight"
+          }
+        },
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/Breach/"
+          }
+        },
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/IncursionChest"
+          }
+        },
+        {
+          "Enabled": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None"
+              }
+            }
+          },
+          "MetadataRegex": {
+            "Value": "^Metadata/Chests/LeagueSanctum/"
+          }
+        }
+      ]
+    }
+  },
+  "UseMagicInput": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "UnclickLeftMouseButton": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "CustomConfigDir": {
+    "Value": ""
+  }
+}

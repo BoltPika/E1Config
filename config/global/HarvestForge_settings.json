@@ -1,0 +1,41 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "InspectCraftedItem": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "StartStopCraftHotkey": {
+    "ValueV2": {
+      "ControllerKey": "None",
+      "ControllerModifierKey": "None",
+      "Key": "None"
+    }
+  },
+  "Crafts": {
+    "Content": [
+      {
+        "Name": {
+          "Value": "6666"
+        },
+        "Input": {
+          "Text": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "SelectedBuild": "暴徒开荒",
+  "LastSelectedCharacterUrl": "https://www.pathofexile.com/fullscreen-passive-skill-tree/AAAABgAACRQgPfxQR1hjXz-Mz8bY7w72SAAA",
+  "LastSelectedAtlasUrl": "https://www.pathofexile.com/fullscreen-atlas-skill-tree/AAAABgAAAAAA",
+  "LineWidth": {
+    "Value": 3
+  },
+  "PickedBorderColor": "00000000",
+  "UnpickedBorderColor": "008000ff",
+  "WrongPickedBorderColor": "ff0000ff",
+  "ShowControlPanel": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "SaveChangesAutomatically": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  }
+}

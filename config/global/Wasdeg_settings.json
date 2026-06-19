@@ -1,0 +1,85 @@
+{
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "MoveUpHotkey": {
+    "ValueV2": {
+      "ControllerKey": "None",
+      "ControllerModifierKey": "None",
+      "Key": "W"
+    }
+  },
+  "MoveDownHotkey": {
+    "ValueV2": {
+      "ControllerKey": "None",
+      "ControllerModifierKey": "None",
+      "Key": "S"
+    }
+  },
+  "MoveLeftHotkey": {
+    "ValueV2": {
+      "ControllerKey": "None",
+      "ControllerModifierKey": "None",
+      "Key": "A"
+    }
+  },
+  "MoveRightHotkey": {
+    "ValueV2": {
+      "ControllerKey": "None",
+      "ControllerModifierKey": "None",
+      "Key": "D"
+    }
+  },
+  "ClickPause": {
+    "Value": 100
+  },
+  "ClickDistance": {
+    "Value": 14
+  },
+  "MinGridRangeToNotClick": {
+    "Value": 5
+  },
+  "MinGridAngleToNotClick": {
+    "Value": 10
+  },
+  "StopAfterKeyRelease": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "StopClickDistanceMultiplier": {
+    "Value": 1.0
+  },
+  "UnclickLeftMouseButton": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  },
+  "EnableDebugLogging": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None"
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "Profiles": {
+    "六子配置": {
+      "Groups": [
+        {
+          "Rules": [
+            {
+              "RuleSource": "SinceLastActivation(0.5) &&\nVitals.HP.Percent < 80 &&\nFlasks[0].CanBeUsed &&\n!Flasks[0].active",
+              "Type": 0,
+              "KeyV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "D1",
+                "Win": false
+              },
+              "SyntaxVersion": 1
+            }
+          ],
+          "Enabled": true,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": false,
+          "EnabledInMaps": true,
+          "Name": "喝血(低于80)"
+        },
+        {
+          "Rules": [
+            {
+              "RuleSource": "SinceLastActivation(0.5) &&\nVitals.mana.percent < 50 &&\nFlasks[1].CanBeUsed &&\n!Flasks[1].active",
+              "Type": 0,
+              "KeyV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "D2",
+                "Win": false
+              },
+              "SyntaxVersion": 1
+            }
+          ],
+          "Enabled": true,
+          "EnabledInTown": false,
+          "EnabledInHideout": false,
+          "EnabledInPeacefulAreas": false,
+          "EnabledInMaps": true,
+          "Name": "喝蓝(低于50)"
+        }
+      ]
+    }
+  },
+  "CurrentProfile": "六子配置",
+  "ShowDebugWindow": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "InspectState": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "GlobalKeyPressCooldown": {
+    "Value": 200
+  },
+  "MaximumMonsterRange": {
+    "Value": 200
+  },
+  "HistorySecondsToKeep": {
+    "Value": 60
+  },
+  "ImageDirectory": {
+    "Value": "textures/ReAgent"
+  },
+  "PluginSettings": {
+    "GlobalKeyPressCooldown": {
+      "Value": 200
+    },
+    "MaximumMonsterRange": {
+      "Value": 200
+    },
+    "HistorySecondsToKeep": {
+      "Value": 60
+    },
+    "EnableInEscapeState": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "KeepEnableTogglesOnASingleLine": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ColorEnableToggles": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "EnableVerticalGroupTabs": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "VerticalTabContainerWidth": {
+      "Value": 150
+    }
+  },
+  "Enable": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  }
+}
