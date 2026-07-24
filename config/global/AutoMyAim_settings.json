@@ -1,6 +1,6 @@
 {
   "Enable": {
-    "Value": true,
+    "Value": false,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -71,12 +71,10 @@
     }
   },
   "AimKey": {
-    "Value": 0,
-    "Win": false
+    "Value": 0
   },
   "AimToggleKey": {
-    "Value": 113,
-    "Win": false
+    "Value": 113
   },
   "Render": {
     "EnableDrawing": {

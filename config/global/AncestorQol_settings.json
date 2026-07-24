@@ -1,0 +1,48 @@
+{
+  "UnitTiers": {},
+  "UnitNotes": {},
+  "FavorNotes": {},
+  "TribeShopTiers": {},
+  "TribeRewardTiers": {
+    "Ngamahu Tribe": 2,
+    "Tawhoa Tribe": 2,
+    "Ramako Tribe": 2,
+    "Arohongui Tribe": 2,
+    "Tasalio Tribe": 2,
+    "Valako Tribe": 5,
+    "Hinekora Tribe": 5,
+    "Kitava Tribe": 5,
+    "Tukohama Tribe": 5,
+    "Rongokurai Tribe": 5
+  },
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "FrameThickness": {
+    "Value": 2
+  },
+  "Tier1Color": "800080ff",
+  "Tier2Color": "008000ff",
+  "Tier3Color": "ffffffff",
+  "Tier4Color": "ffff00ff",
+  "Tier5Color": "ff0000ff",
+  "DrawTribeRewardFrameOverTheWholeElement": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  }
+}

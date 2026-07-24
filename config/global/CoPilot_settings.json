@@ -5,7 +5,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -19,8 +20,36 @@
   "TargetPlayerName": {
     "Value": ""
   },
+  "UsingCheckpoint": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ReviveTeammates": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
   "FollowDistance": {
     "Value": 10
+  },
+  "TargetMin": {
+    "Value": 10
+  },
+  "TargetMax": {
+    "Value": 50
   },
   "ActionCooldown": {
     "Value": 50
@@ -34,7 +63,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -47,7 +77,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -58,12 +89,18 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
     "FollowKey": {
-      "Value": 84
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "T",
+        "Win": false
+      }
     }
   },
   "Blink": {
@@ -73,7 +110,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -91,7 +129,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -101,7 +140,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -115,31 +155,58 @@
       "Value": 1200
     }
   },
-  "ShockBot": {
+  "ReAgent": {
     "Enable": {
       "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
-    "ActionCooldown": {
-      "Value": 1000
+    "ReAgentTime": {
+      "Value": 100
     },
-    "Range": {
-      "Value": 1000
+    "HP": {
+      "Value": 50
     },
-    "BallLightningKey": {
-      "Value": 81
+    "HPKey": {
+      "Value": 49
     },
-    "LightningWarpKey": {
-      "Value": 87
+    "ES": {
+      "Value": 50
     },
-    "RangeToUseLightningWarp": {
-      "Value": 600
+    "ESKey": {
+      "Value": 49
+    },
+    "Mana": {
+      "Value": 50
+    },
+    "ManaKey": {
+      "Value": 50
     }
+  },
+  "MemoryCleanup": {
+    "Enable": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "CleanupInterval": {
+      "Value": 30
+    },
+    "MemoryThreshold": {
+      "Value": 80
+    },
+    "ManualCleanup": {}
   }
 }

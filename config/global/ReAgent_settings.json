@@ -138,6 +138,17 @@
     },
     "VerticalTabContainerWidth": {
       "Value": 150
+    },
+    "IgnoreGracePeriod": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
     }
   },
   "Enable": {

@@ -2,6 +2,11 @@
   "PickitRules": [
     {
       "Enabled": false,
+      "Name": "命运卡.ifl",
+      "Location": "命运卡.ifl"
+    },
+    {
+      "Enabled": false,
       "Name": "圣甲虫.ifl",
       "Location": "圣甲虫.ifl"
     },
@@ -22,12 +27,13 @@
     }
   ],
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -38,7 +44,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -48,7 +55,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -58,7 +66,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -68,7 +77,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -78,7 +88,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -88,7 +99,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -127,7 +139,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -140,7 +153,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -156,7 +170,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -166,7 +181,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -179,7 +195,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -190,7 +207,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -200,7 +218,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -216,7 +235,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -231,7 +251,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -246,7 +267,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -261,7 +283,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -276,7 +299,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -291,7 +315,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -306,7 +331,8 @@
               "ValueV2": {
                 "ControllerKey": "None",
                 "ControllerModifierKey": "None",
-                "Key": "None"
+                "Key": "None",
+                "Win": false
               }
             }
           },
@@ -323,7 +349,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -333,7 +360,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },

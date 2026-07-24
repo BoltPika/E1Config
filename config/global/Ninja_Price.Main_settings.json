@@ -1,24 +1,4 @@
 {
-  "游戏内为繁体": {
-    "Value": true,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None"
-      }
-    }
-  },
-  "游戏内为简体": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None"
-      }
-    }
-  },
   "DataSourceSettings": {
     "LastUpdateTime": "2025-07-10T17:33:21.7154746+08:00",
     "ItemUpdatePeriodMs": {
@@ -33,7 +13,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -43,32 +24,13 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
     "ReloadPeriod": {
       "Value": 15
-    },
-    "CheckMapVariant": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None"
-        }
-      }
-    },
-    "UseChaosEquivalentDataForCurrency": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None"
-        }
-      }
     }
   },
   "DebugSettings": {
@@ -78,7 +40,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -93,7 +56,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -112,10 +76,23 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
-    }
+    },
+    "IgnoreChatPanel": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "StashTabPriceOverlayPerType": {}
   },
   "InventoryValueSettings": {
     "Show": {
@@ -124,7 +101,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -142,7 +120,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -152,7 +131,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -162,9 +142,24 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
+    },
+    "OnlyPriceItemsAboveThreshold": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ValueThreshold": {
+      "Value": 50
     },
     "GroundPriceTextScale": {
       "Value": 1.0
@@ -178,7 +173,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -188,7 +184,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -198,7 +195,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -208,7 +206,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -218,7 +217,10 @@
     "UniqueItemNameTextColor": "000000ff",
     "UniqueItemNameBackgroundColor": "af6025ff",
     "ValuableUniqueItemNameTextColor": "af6025ff",
-    "ValuableUniqueItemNameBackgroundColor": "ffffffff"
+    "ValuableUniqueItemNameBackgroundColor": "ffffffff",
+    "ExcludedUniques": {
+      "Content": []
+    }
   },
   "TradeWindowSettings": {
     "Show": {
@@ -227,7 +229,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -245,9 +248,41 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
+    },
+    "Sparkline": {
+      "Enabled": {
+        "Value": false,
+        "AttachedHotkey": {
+          "ValueV2": {
+            "ControllerKey": "None",
+            "ControllerModifierKey": "None",
+            "Key": "None",
+            "Win": false
+          }
+        }
+      },
+      "Width": {
+        "Value": 54
+      },
+      "Height": {
+        "Value": 16
+      },
+      "BorderThickness": {
+        "Value": 1.0
+      },
+      "TrendThickness": {
+        "Value": 1.5
+      },
+      "Padding": {
+        "Value": 1.5
+      },
+      "AxisColor": "8c8c8ccc",
+      "UpTrendColor": "4de64dff",
+      "DownTrendColor": "f25959ff"
     }
   },
   "PriceOverlaySettings": {
@@ -257,7 +292,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -267,12 +303,41 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
     "BoxHeight": {
       "Value": 15
+    },
+    "ShowUnitValue": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "UnitValueHintThreshold": {
+      "Value": 0.9
+    },
+    "ShowAboveMinValueOnly": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "MinValueForDisplay": {
+      "Value": 1.0
     }
   },
   "LeagueSpecificSettings": {
@@ -282,7 +347,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -292,7 +358,19 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ShowTrappedStashPrices": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -302,7 +380,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -312,7 +391,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -322,7 +402,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -332,7 +413,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -342,7 +424,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -352,17 +435,19 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
-    "ShowArtifactChaosPrices": {
-      "Value": true,
+    "ShowArtifactChaosPricesv2": {
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     }
@@ -373,10 +458,19 @@
     },
     "FontColor": "d8d8d8ff",
     "BackgroundColor": "000000ff",
+    "SemiValuableColorThreshold": {
+      "Value": 30
+    },
+    "SemiValuableColor": "00f03899",
     "ValuableColorThreshold": {
       "Value": 50
     },
     "ValuableColor": "ee82eeff",
+    "ExtraValuableColorThreshold": {
+      "Value": 500
+    },
+    "ExtraValuableColor": "ffa600ff",
+    "ExtraValuableBackgroundColor": "5900ffff",
     "MaximalValueForFractionalDisplay": {
       "Value": 0.031
     }
@@ -388,7 +482,8 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     },
@@ -404,10 +499,14 @@
         "ValueV2": {
           "ControllerKey": "None",
           "ControllerModifierKey": "None",
-          "Key": "None"
+          "Key": "None",
+          "Win": false
         }
       }
     }
+  },
+  "ValuationDisablingSettings": {
+    "ValuationDisabledByItemType": {}
   },
   "Enable": {
     "Value": false,
@@ -415,7 +514,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   }
