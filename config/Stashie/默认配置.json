@@ -1,0 +1,290 @@
+{
+  "ParentMenu": [
+    {
+      "Filters": [
+        {
+          "Affinity": false,
+          "FilterName": "All",
+          "RawQuery": "ClassName == \"Jewel\"\n|| ClassName == \"AbyssJewel\"\n|| BaseName.Contains(\"Cluster\") && Rarity != ItemRarity.Unique",
+          "Shifting": false,
+          "Id": "88a1f50f30854ed5ae5c3d6e128f1211",
+          "Conditions": {
+            "Kind": "Or",
+            "Children": [
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "==",
+                "Value": "Jewel",
+                "Raw": null,
+                "Mod": null
+              },
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "==",
+                "Value": "AbyssJewel",
+                "Raw": null,
+                "Mod": null
+              },
+              {
+                "Kind": "And",
+                "Children": [
+                  {
+                    "Kind": "Leaf",
+                    "Children": [],
+                    "Attribute": "BaseName",
+                    "Operator": "contains",
+                    "Value": "Cluster",
+                    "Raw": null,
+                    "Mod": null
+                  },
+                  {
+                    "Kind": "Leaf",
+                    "Children": [],
+                    "Attribute": "Rarity",
+                    "Operator": "!=",
+                    "Value": "Unique",
+                    "Raw": null,
+                    "Mod": null
+                  }
+                ],
+                "Attribute": null,
+                "Operator": null,
+                "Value": null,
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        }
+      ],
+      "MenuName": "珠宝"
+    },
+    {
+      "Filters": [
+        {
+          "Affinity": false,
+          "FilterName": "全部",
+          "RawQuery": "BaseName.Contains(\"圣甲虫\") || BaseName.Contains(\"聖甲蟲\")",
+          "Shifting": false,
+          "Id": "ac05d8fdd8d7424aaf35a1938fae1c76",
+          "Conditions": {
+            "Kind": "Or",
+            "Children": [
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "BaseName",
+                "Operator": "contains",
+                "Value": "圣甲虫",
+                "Raw": null,
+                "Mod": null
+              },
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "BaseName",
+                "Operator": "contains",
+                "Value": "聖甲蟲",
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        }
+      ],
+      "MenuName": "圣甲虫"
+    },
+    {
+      "Filters": [
+        {
+          "Affinity": false,
+          "FilterName": "全部",
+          "RawQuery": "ClassName == \"DivinationCard\"",
+          "Shifting": false,
+          "Id": "7fbd3e30e79a440498677a0f3915a891",
+          "Conditions": {
+            "Kind": "And",
+            "Children": [
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "==",
+                "Value": "DivinationCard",
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        }
+      ],
+      "MenuName": "命运卡"
+    },
+    {
+      "Filters": [
+        {
+          "Affinity": true,
+          "FilterName": "全部",
+          "RawQuery": "ClassName.Contains(\"Currency\")",
+          "Shifting": false,
+          "Id": "363938f57d40460b9ceff9305a72ffd3",
+          "Conditions": {
+            "Kind": "And",
+            "Children": [
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "contains",
+                "Value": "Currency",
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        }
+      ],
+      "MenuName": "通货"
+    },
+    {
+      "Filters": [
+        {
+          "Affinity": false,
+          "FilterName": "佣兵",
+          "RawQuery": "(BaseName.Contains(\"契约书\") || BaseName.Contains(\"契約書\")) && ClassName == \"MapFragment\"",
+          "Shifting": false,
+          "Id": "f4d050e0dc804c01a5dfedfdbc33b236",
+          "Conditions": {
+            "Kind": "And",
+            "Children": [
+              {
+                "Kind": "Or",
+                "Children": [
+                  {
+                    "Kind": "Leaf",
+                    "Children": [],
+                    "Attribute": "BaseName",
+                    "Operator": "contains",
+                    "Value": "契约书",
+                    "Raw": null,
+                    "Mod": null
+                  },
+                  {
+                    "Kind": "Leaf",
+                    "Children": [],
+                    "Attribute": "BaseName",
+                    "Operator": "contains",
+                    "Value": "契約書",
+                    "Raw": null,
+                    "Mod": null
+                  }
+                ],
+                "Attribute": null,
+                "Operator": null,
+                "Value": null,
+                "Raw": null,
+                "Mod": null
+              },
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "==",
+                "Value": "MapFragment",
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        },
+        {
+          "Affinity": false,
+          "FilterName": "海港",
+          "RawQuery": "ClassName == \"HeistContract\"",
+          "Shifting": false,
+          "Id": "eba9f11e89824b2b94febccc0b4fe4ad",
+          "Conditions": {
+            "Kind": "And",
+            "Children": [
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "==",
+                "Value": "HeistContract",
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        }
+      ],
+      "MenuName": "契约书"
+    },
+    {
+      "Filters": [
+        {
+          "Affinity": false,
+          "FilterName": "全部",
+          "RawQuery": "ClassName == \"Tincture\"",
+          "Shifting": false,
+          "Id": "803d320628ce477d906f33193ab1c3b9",
+          "Conditions": {
+            "Kind": "And",
+            "Children": [
+              {
+                "Kind": "Leaf",
+                "Children": [],
+                "Attribute": "ClassName",
+                "Operator": "==",
+                "Value": "Tincture",
+                "Raw": null,
+                "Mod": null
+              }
+            ],
+            "Attribute": null,
+            "Operator": null,
+            "Value": null,
+            "Raw": null,
+            "Mod": null
+          }
+        }
+      ],
+      "MenuName": "萃取物"
+    }
+  ]
+}

@@ -14,7 +14,7 @@
     "Value": -10.0
   },
   "DrawOnlyOnLargeMap": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -119,7 +119,7 @@
       "Value": 10
     },
     "LogDebugInformation": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -163,7 +163,18 @@
       }
     },
     "HideBurriedMonsters": {
-      "Value": true,
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "HideBuriedBreachMonsters": {
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -208,7 +219,7 @@
         }
       },
       "ShowUniqueNames": {
-        "Value": true,
+        "Value": false,
         "AttachedHotkey": {
           "ValueV2": {
             "ControllerKey": "None",
@@ -338,6 +349,9 @@
     "SizeBreachChestIcon": {
       "Value": 10
     },
+    "SizeDeepwaterChestIcon": {
+      "Value": 20
+    },
     "SizeHeistChestIcon": {
       "Value": 30
     },
@@ -376,11 +390,336 @@
     "SizeShrineIcon": {
       "Value": 10
     },
+    "ShowNormalMonsters": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ShowMagicMonsters": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "ShowSleepingEntities": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "DisplayShowSleepingEntities": false,
     "MonstersWithIcons": {
       "Content": []
     },
     "CustomIcons": {
-      "Content": []
+      "Content": [
+        {
+          "Icon": "LootFilterMediumBlueUpsideDownHouse",
+          "MetadataRegex": {
+            "Value": "Metadata/Chests/LeagueDeepwater/BrinerotStoresChestEncounter"
+          },
+          "Tint": "ffffffff",
+          "Size": {
+            "Value": 3.0
+          },
+          "OnlyShowAlive": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNotOpened": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNonHiddenIcons": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisableDrawingHiddenIcon": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisplayString": {
+            "Value": "海图"
+          },
+          "TextColor": "ffffffff"
+        },
+        {
+          "Icon": "AbyssPitActive",
+          "MetadataRegex": {
+            "Value": "Metadata/MiscellaneousObjects/Abyss/AbyssFinalNodeBase"
+          },
+          "Tint": "ffffffff",
+          "Size": {
+            "Value": 3.0
+          },
+          "OnlyShowAlive": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNotOpened": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNonHiddenIcons": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisableDrawingHiddenIcon": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisplayString": {
+            "Value": "深渊坑"
+          },
+          "TextColor": "ffffffff"
+        },
+        {
+          "Icon": "AbyssPitInactive",
+          "MetadataRegex": {
+            "Value": "Metadata/MiscellaneousObjects/Abyss/AbyssSubAreaTransition"
+          },
+          "Tint": "ffffffff",
+          "Size": {
+            "Value": 3.0
+          },
+          "OnlyShowAlive": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNotOpened": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNonHiddenIcons": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisableDrawingHiddenIcon": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisplayString": {
+            "Value": ""
+          },
+          "TextColor": "ffffffff"
+        },
+        {
+          "Icon": "LootFilterMediumBlueUpsideDownHouse",
+          "MetadataRegex": {
+            "Value": "Metadata/Chests/LeagueDeepwater/CursedTreasureChestEncounter"
+          },
+          "Tint": "ffffffff",
+          "Size": {
+            "Value": 3.0
+          },
+          "OnlyShowAlive": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNotOpened": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNonHiddenIcons": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisableDrawingHiddenIcon": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisplayString": {
+            "Value": "海图"
+          },
+          "TextColor": "ffffffff"
+        },
+        {
+          "Icon": "LootFilterMediumBlueUpsideDownHouse",
+          "MetadataRegex": {
+            "Value": "Metadata/Chests/LeagueDeepwater/GiantCoralChest"
+          },
+          "Tint": "ffffffff",
+          "Size": {
+            "Value": 3.0
+          },
+          "OnlyShowAlive": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNotOpened": {
+            "Value": true,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "OnlyShowNonHiddenIcons": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisableDrawingHiddenIcon": {
+            "Value": false,
+            "AttachedHotkey": {
+              "ValueV2": {
+                "ControllerKey": "None",
+                "ControllerModifierKey": "None",
+                "Key": "None",
+                "Win": false
+              }
+            }
+          },
+          "DisplayString": {
+            "Value": "海图"
+          },
+          "TextColor": "ffffffff"
+        }
+      ]
     }
   }
 }
