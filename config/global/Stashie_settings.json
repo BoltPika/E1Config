@@ -1,0 +1,238 @@
+{
+  "AllStashNames": [],
+  "CustomFilterOptions": {},
+  "FilterTabById": {},
+  "FilterFile": {
+    "Value": null
+  },
+  "DropHotkey": {
+    "Value": 114
+  },
+  "ExtraDelay": {
+    "Value": 0
+  },
+  "HoverItemDelay": {
+    "Value": 5
+  },
+  "StashItemDelay": {
+    "Value": 5
+  },
+  "VisitTabWhenDone": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "TabToVisitWhenDone": {
+    "Value": 0
+  },
+  "BackToOriginalTab": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "KeepHighestTPStack": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "KeepHighestIDStack": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "EnableDynamicIgnore": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "DynamicIgnoreHotkey": {
+    "Value": 4
+  },
+  "DynamicIgnoreIconTint": "ffffffff",
+  "DynamicIgnoreIconSizePercent": {
+    "Value": 30
+  },
+  "DynamicIgnoreIconCorner": {
+    "Value": "Top-Right"
+  },
+  "DynamicIgnoreIgnoreRolls": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "DynamicIgnoreExpireLocks": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "DynamicIgnoreLockLifetimeDays": {
+    "Value": 30
+  },
+  "LockedItems": [],
+  "LockedItemFingerprints": [],
+  "ScannerGrabHotkey": {
+    "Value": 86
+  },
+  "Enable": {
+    "Value": false,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "IgnoredCells": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "IgnoredExpandedCells": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "ConfigLastSaved": "",
+  "ConfigLastSelected": "",
+  "CurrentFilterOptions": {
+    "ParentMenu": null
+  }
+}

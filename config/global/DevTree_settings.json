@@ -1,34 +1,27 @@
 {
   "ToggleWindowState": false,
-  "ToggleWindowUsingHotkey": {
-    "Value": false,
-    "AttachedHotkey": {
-      "ValueV2": {
-        "ControllerKey": "None",
-        "ControllerModifierKey": "None",
-        "Key": "None"
-      }
-    }
-  },
   "ToggleWindowKey": {
     "ValueV2": {
       "ControllerKey": "None",
       "ControllerModifierKey": "None",
-      "Key": "NumPad9"
+      "Key": "NumPad9",
+      "Win": false
     }
   },
   "DebugUIHoverItemKey": {
     "ValueV2": {
       "ControllerKey": "None",
       "ControllerModifierKey": "None",
-      "Key": "NumPad5"
+      "Key": "NumPad5",
+      "Win": false
     }
   },
   "SaveHoveredDevTreeNodeKey": {
     "ValueV2": {
       "ControllerKey": "None",
       "ControllerModifierKey": "None",
-      "Key": "NumPad8"
+      "Key": "NumPad8",
+      "Win": false
     }
   },
   "NearestEntitiesRange": {
@@ -45,7 +38,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -55,7 +49,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -65,7 +60,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -97,7 +93,8 @@
       "ValueV2": {
         "ControllerKey": "None",
         "ControllerModifierKey": "None",
-        "Key": "None"
+        "Key": "None",
+        "Win": false
       }
     }
   },
@@ -105,6 +102,7 @@
     "Exclusions": null
   },
   "CustomExpressions": {
-    "Content": []
+    "Content": [],
+    "Count": 0
   }
 }

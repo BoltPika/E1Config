@@ -38,6 +38,44 @@
   "ClickDelay": {
     "Value": 3
   },
+  "PortalSettings": {
+    "Enable": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "OpenPortalKey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "F8",
+        "Win": false
+      }
+    },
+    "InventoryKey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "I",
+        "Win": false
+      }
+    },
+    "InventoryOpenDelay": {
+      "Value": 100
+    },
+    "UseDelay": {
+      "Value": 50
+    },
+    "KeyPressDelay": {
+      "Value": 20
+    }
+  },
   "DoorSettings": {
     "Open": {
       "Value": true,

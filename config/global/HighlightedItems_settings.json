@@ -143,8 +143,19 @@
       }
     }
   },
-  "ShowCustomFilterWindow": {
-    "Value": false,
+  "ShowStashCustomFilterWindow": {
+    "Value": true,
+    "AttachedHotkey": {
+      "ValueV2": {
+        "ControllerKey": "None",
+        "ControllerModifierKey": "None",
+        "Key": "None",
+        "Win": false
+      }
+    }
+  },
+  "ShowInventoryCustomFilterWindow": {
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
@@ -271,5 +282,6 @@
     }
   },
   "SavedFilters": [],
+  "SavedFilterEntries": [],
   "OpenSavedFilterList": true
 }

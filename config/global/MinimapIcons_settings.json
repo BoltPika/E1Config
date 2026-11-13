@@ -109,10 +109,12 @@
       {
         "Value": "Metadata/Terrain/Leagues/Delve/Objects/DelveWall"
       }
-    ]
+    ],
+    "Count": 1
   },
   "IgnoreHiddenStatusMinimapIcons": {
-    "Content": []
+    "Content": [],
+    "Count": 0
   },
   "IconsBuilderSettings": {
     "RunEveryXTicks": {
@@ -425,7 +427,8 @@
     },
     "DisplayShowSleepingEntities": false,
     "MonstersWithIcons": {
-      "Content": []
+      "Content": [],
+      "Count": 0
     },
     "CustomIcons": {
       "Content": [
@@ -719,7 +722,8 @@
           },
           "TextColor": "ffffffff"
         }
-      ]
+      ],
+      "Count": 5
     }
   }
 }

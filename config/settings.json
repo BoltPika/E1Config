@@ -26,6 +26,14 @@
       "Win": false
     }
   },
+  "SettingsSearchHotkey": {
+    "ValueV2": {
+      "ControllerKey": "None",
+      "ControllerModifierKey": "None",
+      "Key": "F, Shift, Control",
+      "Win": false
+    }
+  },
   "PauseAllPluginsHotkey": {
     "ValueV2": {
       "ControllerKey": "None",
@@ -154,6 +162,10 @@
       "CategoriesSettings": {
         "Plugins": {}
       }
+    },
+    "FavoriteSettings": {
+      "Content": [],
+      "Count": 0
     }
   },
   "PerformanceSettings": {
@@ -309,34 +321,21 @@
         {
           "Font": {
             "Value": "unifont"
-          },
-          "Sizes": {
-            "Content": [
-              {
-                "Value": 16
-              }
-            ]
           }
         },
         {
           "Font": {
             "Value": "syht"
-          },
-          "Sizes": {
-            "Content": [
-              {
-                "Value": 14
-              }
-            ]
           }
         }
-      ]
+      ],
+      "Count": 2
     },
     "MainFont": {
-      "Value": "syht:14"
+      "Value": "syht"
     },
-    "FontGlyphRange": {
-      "Value": "ChineseFull"
+    "FontSize": {
+      "Value": 16
     },
     "ApplySelectedFontGlobally": {
       "Value": true,
@@ -481,10 +480,21 @@
           "Win": false
         }
       }
+    },
+    "CollectSleepingEntities": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
     }
   },
   "Enable": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",

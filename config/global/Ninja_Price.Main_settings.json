@@ -7,6 +7,20 @@
     "League": {
       "Value": "Mercenaries"
     },
+    "UseCustomLeague": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "CustomLeagueName": {
+      "Value": ""
+    },
     "SyncCurrentLeague": {
       "Value": true,
       "AttachedHotkey": {
@@ -61,6 +75,17 @@
         }
       }
     },
+    "UseCustomPosition": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
     "PositionX": {
       "Value": 240
     },
@@ -106,11 +131,38 @@
         }
       }
     },
+    "ShowItemPriceOverlay": {
+      "Value": true,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
+    "UseCustomPosition": {
+      "Value": false,
+      "AttachedHotkey": {
+        "ValueV2": {
+          "ControllerKey": "None",
+          "ControllerModifierKey": "None",
+          "Key": "None",
+          "Win": false
+        }
+      }
+    },
     "PositionX": {
       "Value": 1307
     },
     "PositionY": {
       "Value": 470
+    },
+    "ItemPriceOverlayLayout": {
+      "Enabled": true,
+      "Vertical": 1,
+      "Edge": 1
     }
   },
   "GroundItemSettings": {
@@ -167,17 +219,6 @@
     "GroundPriceBackgroundColor": "000000ff"
   },
   "UniqueIdentificationSettings": {
-    "IgnoreGameUniqueArtMapping": {
-      "Value": false,
-      "AttachedHotkey": {
-        "ValueV2": {
-          "ControllerKey": "None",
-          "ControllerModifierKey": "None",
-          "Key": "None",
-          "Win": false
-        }
-      }
-    },
     "ShowRealUniqueNameOnGround": {
       "Value": false,
       "AttachedHotkey": {
@@ -219,7 +260,8 @@
     "ValuableUniqueItemNameTextColor": "af6025ff",
     "ValuableUniqueItemNameBackgroundColor": "ffffffff",
     "ExcludedUniques": {
-      "Content": []
+      "Content": [],
+      "Count": 0
     }
   },
   "TradeWindowSettings": {
@@ -252,6 +294,12 @@
           "Win": false
         }
       }
+    },
+    "OffsetX": {
+      "Value": 0
+    },
+    "OffsetY": {
+      "Value": 0
     },
     "Sparkline": {
       "Enabled": {

@@ -179,7 +179,7 @@
       }
     },
     "ShowPathLegend": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
