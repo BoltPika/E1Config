@@ -22,7 +22,7 @@
     "ValueV2": {
       "ControllerKey": "None",
       "ControllerModifierKey": "None",
-      "Key": "F11",
+      "Key": "F12",
       "Win": false
     }
   },
@@ -55,7 +55,7 @@
       }
     },
     "AvoidLockingDllFiles": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -77,7 +77,7 @@
       }
     },
     "BuildAllPluginsAtOnce_v2": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -88,7 +88,7 @@
       }
     },
     "CachePluginCompilationResults": {
-      "Value": false,
+      "Value": true,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -108,6 +108,10 @@
           "Win": false
         }
       }
+    },
+    "SkippedPluginFolders": {
+      "Content": [],
+      "Count": 0
     },
     "FolderSettings": {
       "PluginFolders": [],
@@ -170,7 +174,7 @@
   },
   "PerformanceSettings": {
     "CoroutineMultiThreading": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -181,7 +185,7 @@
       }
     },
     "ParseEntitiesInMultiThread": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -192,16 +196,16 @@
       }
     },
     "Threads": {
-      "Value": 16
+      "Value": 2
     },
     "TargetFps": {
-      "Value": 200
+      "Value": 60
     },
     "TargetParallelCoroutineFps": {
-      "Value": 500
+      "Value": 60
     },
     "EntitiesFps": {
-      "Value": 200
+      "Value": 60
     },
     "ParseServerEntities_v2": {
       "Value": true,
@@ -269,7 +273,7 @@
     }
   },
   "GlobalEntityCacheExpirationMinutes": {
-    "Value": 57.306
+    "Value": 20.0
   },
   "UseOldStyleListNode": {
     "Value": false,
@@ -320,12 +324,12 @@
       "Content": [
         {
           "Font": {
-            "Value": "unifont"
+            "Value": "syht"
           }
         },
         {
           "Font": {
-            "Value": "syht"
+            "Value": "unifont"
           }
         }
       ],
@@ -379,7 +383,7 @@
   },
   "LoggingSettings": {
     "MinimumLogLevel": {
-      "Value": "Information"
+      "Value": "Verbose"
     },
     "TimestampColor": "808080ff",
     "VerboseLogColor": "808080ff",
@@ -416,7 +420,7 @@
       }
     },
     "HideAllDebugging": {
-      "Value": true,
+      "Value": false,
       "AttachedHotkey": {
         "ValueV2": {
           "ControllerKey": "None",
@@ -519,7 +523,7 @@
     "Value": 1000
   },
   "DisableBlackBarAdjustment": {
-    "Value": false,
+    "Value": true,
     "AttachedHotkey": {
       "ValueV2": {
         "ControllerKey": "None",
